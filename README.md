@@ -46,6 +46,8 @@ and make it executable:
 ```
 chmod +x update
 ```
+
+----------
 Thanks to
 ----------
 - Thanks to the authors of xidel, parallel and anacrontab. this program was made fairly easily with these commands.
