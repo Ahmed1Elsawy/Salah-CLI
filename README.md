@@ -34,11 +34,17 @@ Now you have to make the update file
 
 Make the file `~/.salah/update` which will have something like this:
 ```
+#!/bin/bash
+
 if ! cmp -s p d/$(date +%-j)
 then
     grep -vf p <(crontab -l) > my-crontab
     cat <(cat my-crontab) <(cat d/$(date +%-j) | tee p) > my-crontab
 fi
+```
+and make it executable:
+```
+chmod +x update
 ```
 
   [1]: http://www.videlibri.de/xidel.html#downloads
