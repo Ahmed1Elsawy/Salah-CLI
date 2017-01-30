@@ -9,7 +9,7 @@ It's a CLI program it does not use the GUI, I think it should be light and won't
 ----------
 Building
 --------
-You should also install [xidel][1], [parallel][2] and [anacrontab][3].
+You should also install [xidel][1], [parallel][2] and [anacron][3].
 
 And you should edit the file ` /etc/anacrontab ` and add something like this line
 ```
