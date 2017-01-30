@@ -46,6 +46,14 @@ and make it executable:
 ```
 chmod +x update
 ```
+Thanks to
+----------
+- Thanks to the authors of xidel, parallel and anacrontab. this program was made fairly easily with these commands.
+
+Author
+------
+- written by Ahmed Elsawy
+
 
   [1]: http://www.videlibri.de/xidel.html#downloads
   [2]: https://www.gnu.org/software/parallel/
