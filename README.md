@@ -38,7 +38,7 @@ Make the file `~/.salah/update` which will have something like this:
 
 if ! cmp -s p d/$(date +%-j)
 then
-    cat <(grep -vf p <(crontab -l)) <(cat d/$(date +%-j) | tee p) > my-crontab
+    cat <(grep -xvf p <(crontab -l)) <(cat d/$(date +%-j) | tee p) > my-crontab
 fi
 ```
 and make it executable:
